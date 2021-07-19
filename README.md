@@ -1,19 +1,38 @@
-# CASE WEB APP DE PREVISÃO DO TEMPO
+<h4 align="center">
+    <br><br>
+    <p align="center">
+      <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      <a href="#-how-to-run-the-project">Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  </p>
+</h4>
 
-Live Santander | Web Full Stack - 15/07.
+## 🔖 About
 
-- [x] Node.js
-- [x] Como iniciar projeto React de maneira simples:
-  - Create React App (CRA):
-  ```npx create-react-app nome_do_app``` 
-  - Vite :
-  ```npm init vite@latest```
-- [x] JSX
-- [x] Vantagens sobre Javascript vanilla ("puro")
-- [x] Requisições HTTP p/ consumir dados
-- [x] Estado no React
-- [x] Fluxo de Renderização do React
-- [x] Renderização condicional
-- [x] Componentização
-- [x] Realizar chamada à API assim que componente for montado (cidade padrão)
-- [x] Estilização
+Search any city and receive the weather status. Based on live Santander Coders.
+
+## 🚀 Technologies
+
+- [React](https://pt-br.reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [WeatherApi](https://github.com/robertoduessmann/weather-api/)
+
+## 🏁 How to run the project
+
+#### Clone the repository
+
+```bash
+git clone https://github.com/cardosovanessa/weatherforecast.git
+cd weatherforecast
+```
+
+#### Install dependencies
+
+```bash
+yarn install
+```
+#### Execute 
+
+```bash
+yarn dev
+```

@@ -1,35 +1,38 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
-import HelloWorld from './components/HelloWord'
 import { api } from './services/api'
 import { FaTemperatureHigh, FaWind } from 'react-icons/fa'
 
 function App() {
-  const [weather, setWeather] = useState(null) 
-  const city = 'Curitiba';
+  const [weather, setWeather] = useState(null); 
+  const [city, setCity] = useState('');
+  const [search, setSearch] = useState('');
 
-  async function handleGetWeather(){
-    const response = await api.get(city)
+  
+  async function handleGetWeather(event){
+    event.preventDefault();
+    
+    const response = await api.get(search)
     console.log(response)
+    setCity(search)
     setWeather (response.data)
   }
-
-  useEffect(() => {
+  useEffect(() =>{
     handleGetWeather()
-  })
+  },[search])
 
   return (
     <div className="App">
-      {/* <h1>{'hello world'.toUpperCase()}</h1>
-      <HelloWorld/> */}
+      <header>
+        <p id="info">Pesquise pelo nome da cidade</p>
+        <form onSubmit={handleGetWeather}>
+          <input type="text" value={search} onChange={ (event)=> setSearch(event.target.value) }/>
+          <button >Search</button>
+        </form>
+      </header>  
 
-      {/* <header>
-        <button onClick={handleGetWeather}>enviar</button>
-      </header>
-            */}
         {weather &&
         <main>
-          {/* <p>{JSON.stringify(weather)}</p> */}
         
         <h1>{city}</h1>
 

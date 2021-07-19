@@ -5,31 +5,45 @@
   padding: 15px;
 }
 
-.App input, .App button {
+#info {
+  display: block;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.App input,
+.App button {
   border: 0;
   border-radius: 16px;
-  color: #fff;  
+  color: #fff;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   padding: 8px 12px;
   height: 36px;
+  margin-top: 15px;
 }
 
 .App header form {
   display: flex;
-  gap: 12px;
+  gap: 5px;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .App input {
-  background-color: #333;
+  padding: 8px 24px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.55);
+  opacity: 90%;
   flex: 1;
 }
 
 .App button {
-  background-color: hsl(226, 72%, 36%);
+  background-color: #00008B;
   color: #fff;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .App button:hover {
@@ -73,7 +87,7 @@
 
 .forecast ol li {
   padding: 8px 24px;
-  background-color: rgba(0, 0, 0, .55);
+  background: rgba(0, 0, 0, 0.55);
   border-radius: 16px;
 
   display: flex;
