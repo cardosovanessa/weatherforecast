@@ -10,7 +10,7 @@
 
 ### Sobre
 
-Desenvolvi esse projeto com base na live da Let's Code para conferir a previsão do tempo, você pode pesquisar qualquer cidade e receber a previsão em tempo real + a previsão dos 3 próximos dias! 
+Desenvolvi esse projeto com base na live da Let's Code para conferir a `previsão do tempo`, você pode pesquisar qualquer cidade e receber a previsão em tempo real + a previsão dos 3 próximos dias! 
 
 
 ---
