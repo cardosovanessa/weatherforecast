@@ -1,7 +1,3 @@
-<h1 align="center"> 
-
-![Logo](http://archive.krakow2016.com/media/cache/resolve/filemanager_original/images/7147/xNEWS_PHOTO_weather.png.pagespeed.ic.yxXAdjDqKn.webp) </h1>
-
 <h4 align="center">
     <br><br>
     <p align="center">
