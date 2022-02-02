@@ -1,38 +1,59 @@
-<h4 align="center">
-    <br><br>
-    <p align="center">
-      <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-how-to-run-the-project">Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  </p>
-</h4>
+<p align="center">
+ <a href="#sobre">Sobre</a> •
+ <a href="#pré-requisitos">Pré-Requisitos</a> • 
+ <a href="#rodando-o-back-end-servidor">Rodando Backend</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+<a href="#autoria">Autoria</a>
+</p>
 
-## 🔖 About
+<h1 align="center">🌦️ Weather Forecast</h1>
 
-Search any city and receive the weather status. Based on live Santander Coders.
+### Sobre
 
-## 🚀 Technologies
+Desenvolvi esse projeto com base na live da Let's Code para conferir a *previsão do tempo*, você pode pesquisar qualquer cidade e receber a previsão em tempo real + a previsão dos 3 próximos dias! 
 
-- [React](https://pt-br.reactjs.org/)
+
+---
+### Pré-requisitos 
+
+Antes de começar, você precisa ter instalado em sua máquina as seguintes ferramentas:
+
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+
+---
+### Rodando o Back End (servidor) 
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/cardosovanessa/weatherforecast>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd weatherforecast
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
+
+---
+### Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [React](https://reactjs.org/)
+- [Axios](https://www.npmjs.com/package/axios)
 - [Vite](https://vitejs.dev/)
-- [WeatherApi](https://github.com/robertoduessmann/weather-api/)
+- [WheaterApi](https://github.com/robertoduessmann/weather-api/)
 
-## 🏁 How to run the project
+### Autoria
 
-#### Clone the repository
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cardosofvanessa/)](https://www.linkedin.com/in/cardosofvanessa/) 
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:cardosovanessafs@gmail.com)](mailto:cardosovanessafs@gmail.com) 
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-violet?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/vcardoso_/)](https://www.instagram.com/vcardoso_/)
 
-```bash
-git clone https://github.com/cardosovanessa/weatherforecast.git
-cd weatherforecast
-```
+<p>Feito com ❤️ por Vanessa Cardoso!</p>
 
-#### Install dependencies
-
-```bash
-yarn install
-```
-#### Execute 
-
-```bash
-yarn dev
-```
