@@ -24,10 +24,10 @@ function App() {
   return (
     <div className="App">
       <header>
-        <p id="info">Pesquise pelo nome da cidade</p>
+        <p id="info">Search city by name</p>
         <form onSubmit={handleGetWeather}>
           <input type="text" value={search} onChange={ (event)=> setSearch(event.target.value) }/>
-          <button >Search</button>
+          <button>Search</button>
         </form>
       </header>  
 

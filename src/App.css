@@ -1,49 +1,50 @@
 .App {
-  background: linear-gradient(rgb(90, 100, 133), rgb(26, 58, 160));
+  background: linear-gradient(rgb(90, 100, 133), rgb(41, 72, 172));
   height: 100vh;
   width: 100%;
-  padding: 15px;
+  padding: 1rem;
 }
 
 #info {
   display: block;
   text-align: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 2rem;
+  padding-top: 0.50rem;
 }
 
 .App input,
 .App button {
   border: 0;
-  border-radius: 16px;
+  border-radius: 1rem;
   color: #fff;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 12px;
-  height: 36px;
-  margin-top: 15px;
+  padding: 2rem 2rem;
+  height: 3.2rem;
+  margin-top: 2rem;
 }
 
 .App header form {
   display: flex;
-  gap: 5px;
+  gap: 1rem;
   width: 50%;
   margin-left: 25%;
 }
 
 .App input {
-  padding: 8px 24px;
-  border-radius: 16px;
+  border-radius: 1rem;
   background-color: rgba(0, 0, 0, 0.55);
   opacity: 90%;
   flex: 1;
 }
 
 .App button {
-  background-color: #00008B;
+  background-color: #3d3d63;
   color: #fff;
   transition: 0.2s ease-in-out;
+  font-size: 1.5rem;
 }
 
 .App button:hover {
@@ -51,17 +52,17 @@
 }
 
 .App main {
-  margin: 36px 0px;
+  margin: 2rem 0;
 }
 
 .App h1 {
   text-align: center;
-  margin: 36px 0px;
+  margin: 3rem 0;
 }
 
 .App h2 {
   font-weight: 400;
-  margin-bottom: 18px;
+  margin-bottom: 1rem;
 }
 
 .App section {
@@ -70,15 +71,15 @@
   justify-content: center;
   align-content: center;
   text-align: center;
-  margin: 72px 0;
+  margin: 3rem 0;
 }
 
 .current-weather p {
-  font-size: 48px;
+  font-size: 4rem;
 }
 
 .current-weather p + p {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .forecast ol {
@@ -86,16 +87,17 @@
 }
 
 .forecast ol li {
-  padding: 8px 24px;
+  padding: 1rem 1rem;
   background: rgba(0, 0, 0, 0.55);
-  border-radius: 16px;
-
+  border-radius: 1rem;
   display: flex;
   justify-content: space-between;
+  margin-right: 25rem;
+  margin-left: 25rem;
 }
 
 .forecast ol li + li {
-  margin-top: 8px;
+  margin-top: 0.75rem;
 }
 
 .forecast ol li h3 {
@@ -110,6 +112,10 @@
 }
 
 .forecast ol li div svg {
-  font-size: 18px;
-  margin-right: 8px;
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+input {
+  font-size: 1.5rem;
 }
